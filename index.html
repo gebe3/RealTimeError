@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>RealTimeError</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <table>
+    <tbody>
+      <tr>
+        <td>&nbsp;</td>
+        <th>最近1か月間の<br>総患者数</th>
+        <th>そのうち<br>新患の患者数</th>
+        <th>【自動計算】<br>既存患者数</th>
+      </tr>
+      <tr>
+        <td>総診療患者数</td>
+        <td><input type="text" name="a0031s001t001" size="10">人／月</td>
+        <td><input type="text" name="a0031s001t002" size="10">人／月</td>
+        <td><input type="text" name="a0031s001t003" size="10">人／月</td>
+      </tr>
+      <tr>
+        <td >そのうち・・・<br>薬物療法実施</td>
+        <td ><input type="text" name="a0031s002t001" size="10">人／月</td>
+        <td ><input type="text" name="a0031s002t002" size="10">人／月</td>
+        <td ><input type="text" name="a0031s002t003" size="10">人／月</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <button id="check-button">Check!</button>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

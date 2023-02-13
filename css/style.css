@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+body {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  font-family: 'メイリオ','meiryo','ＭＳ Ｐゴシック','MS P Gothic','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ヒラギノ丸ゴシック Pro W3','Hiragino maru Gothic Pro','Helvetica','sans-serif';
+  font-size: 12px;
+  color: #333;
+}
+
+input {
+  text-align: right;
+}
+
+/* エラーメッセージ用ポップアップ */
+.error-mes{
+	white-space: nowrap;
+	border: 2px solid #aaa;
+	background-color:#ffc;
+	color:#f00;
+	padding: 4px;
+}
